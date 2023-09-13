@@ -12,13 +12,13 @@ Algoritmo ReposiciónMateriasPrimas
 	Escribir L*150, " gr de lomo"
 	Escribir Pa, " salchichas"
 	Escribir Pizzas*250, " gr de muzzarella"
-	Si H>4 Entonces
+	Si H>=4 Entonces
 		Harina <- Harina+1
-		Si L>2 Entonces
+		Si L>=2 Entonces
 			Harina<-Harina+1;
-			Si Pa>4 Entonces
+			Si Pa>=4 Entonces
 				Harina<-Harina+1;
-				Si Pizzas>3
+				Si Pizzas>=3
 					Harina<-Harina+1
 				FinSi
 			FinSi
