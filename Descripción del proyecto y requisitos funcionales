@@ -1,0 +1,13 @@
+Un delivery de comidas rápidas necesita un sistema de carga de pedidos recibidos telefónicamente y para le reposición de mercadería en base a los pedidos de la noche anterior. 
+Voy a necesitar una aplicación que maneje la carga de pedidos y facilite el listado de materias primas faltantes.
+
+Título: Sistema de Gestión Delivery
+El sistema debe proporcionar los siguientes requisitos funcionales:
+
+Gestión de Pedidos:
+Permitir al personal la carga de pedidos y montos correctamente.
+
+Lista de Insumos faltntes:
+Mantener una lista actualizada de materias primas
+Interfaz de Usuario Amigable:
+Proporcionar una interfaz de usuario intuitiva y fácil de usar para que el personal pueda trabajar de una mamera rápida y ordenada.
