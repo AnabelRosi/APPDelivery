@@ -1,4 +1,4 @@
-Algoritmo ReposiciónMateriasPrimas
+Algoritmo ReposiciÃ³nMateriasPrimas
 	Escribir "Ingrese la cantidad de Hamburguesas vendidas"
 	Leer H
 	Escribir "Ingrese la cantida de Lomos vendidos"
@@ -12,9 +12,18 @@ Algoritmo ReposiciónMateriasPrimas
 	Escribir L*150, " gr de lomo"
 	Escribir Pa, " salchichas"
 	Escribir Pizzas*250, " gr de muzzarella"
-	Si H>4 O L>2 O Pa>4 o Pizzas>3 Entonces 
-		Harina<- Harina+1
-		Escribir Harina, " Kg de harina"
+	Si H>4 Entonces
+		Harina <- Harina+1
+		Si L>2 Entonces
+			Harina<-Harina+1;
+			Si Pa>4 Entonces
+				Harina<-Harina+1;
+				Si Pizzas>3
+					Harina<-Harina+1
+				FinSi
+			FinSi
+		FinSi
+		Escribir Harina, ' Kg de harina'
 	FinSi
 	Escribir H*20+L*4+Pizzas*100, " gr de jamon cocido"
 	Escribir H+L, " Huevos"
@@ -23,7 +32,7 @@ Algoritmo ReposiciónMateriasPrimas
 	Escribir H*30+L*50, " gr mantecoso"
 	Si (H+L+Pa+Pizzas)>20 Entonces
 		Escribir "Aceite"
-		Escribir "Azúcar"
+		Escribir "AzÃºcar"
 	FinSi
 	Si (H+L+Pa+Pizzas)>40 Entonces
 		Escribir "Levadura"
@@ -33,7 +42,7 @@ Algoritmo ReposiciónMateriasPrimas
 		Escribir "Condimento de hamburguesas"
 	FinSi
 	Si Pizzas>3 Entonces 
-		Escribir "Puré de tomates"
+		Escribir "PurÃ© de tomates"
 	FinSi
 	Escribir Pizzas*50, " gr de aceitunas"
 	
