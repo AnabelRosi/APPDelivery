@@ -1,0 +1,18 @@
+Metodología Kanban para el Proyecto del Delivery
+Tablero Kanban:
+Crear un tablero Kanban en una plataforma en línea como Trello. Crear columnas como "Tareas pendientes", "En proceso", "Revisión" y "Finalizadas".
+
+Listado de Tareas:
+
+Planificación del proyecto
+Investigar y diseñar la interfaz del sistema.
+Generar un pseudocódigo funcional.
+Implementar la funcionalidad de registro y manejo de pedidos.
+Implementar la funcionalidad de carga de materias primas faltantes.
+
+Flujo de Trabajo:
+
+Colocamos las tareas en la columna "Tareas pendientes" del tablero Kanban.
+A medida que comenzamos a trabajar en una tarea, la movemos a la columna "En proceso".
+Cuando completamos una tarea, la movemos a la columna "Revisión" para verificarla y resolver cualquier problema.
+Una vez que una tarea haya sido revisada y aprobada, la movemos a la columna "Finalizada".
