@@ -49,15 +49,13 @@ Algoritmo cargaDePedidos
 				Escribir "Indique la cantidad"
 				Leer cantidad
 				Escribir "Pedido : " , cantidad, " lomos ";
-				Escribir "Total21 = $ ", cantidad*2350;
-				TotalDeCompra<-TotalDeCompra+Total21
+				Escribir "Total = $ ", cantidad*2350;
 			FinSi
 			Si (OP=22) Entonces
 				Escribir "Indique la cantidad"
 				Leer cantidad
 				Escribir "Pedido : " , cantidad, " lomos Lucio´s";
-				Escribir "Total22 = $ ", cantidad*4000;
-				TotalDeCompra<-TotalDeCompra+Total22
+				Escribir "Total = $ ", cantidad*4000;
 			FinSi
 			Si (OP=23)
 				Escribir "Presione enter para continuar"
@@ -76,17 +74,15 @@ Algoritmo cargaDePedidos
 		    Si (OP=31) Entonces
 				Escribir "Indique la cantidad"
 				Leer cantidad
-				Escribir "Pedido : " , cantidad, " panchos ";
-				Escribir "Total31 = $ ", cantidad*650;
-				TotalDeCompra<-TotalDeCompra+Total31
+				Escribir "Pedido : " , cantidad, " panchos simples ";
+				Escribir "Total = $ ", cantidad*650;
 			FinSi
 			Si (OP=32) Entonces
 				Escribir "Indique la cantidad"
 				Leer cantidad
 				Escribir "Pedido : " , cantidad, " panchos con poncho";
-				Escribir "Total32 = $ ", cantidad*850;
-				TotalDeCompra<-TotalDeCompra+Total32
-			FinSi
+				Escribir "Total = $ ", cantidad*850;
+                        FinSi
 			Si (OP=33)
 				Escribir "Presione enter para continuar"
 			FinSi
@@ -99,28 +95,25 @@ Algoritmo cargaDePedidos
 			Escribir "   43. Criolla $4000"
 			Escribir "   44. Salir"
 			// ingresar una opción
-			Escribir "Elija una opción (31-33): "
+			Escribir "Elija una opción (41-44): "
 			Leer OP
 		    Si (OP=41) Entonces
 				Escribir "Indique la cantidad"
 				Leer cantidad
 				Escribir "Pedido : " , cantidad, " pizzas muzza ";
-				Escribir "Total41 = $ ", cantidad*1600;
-				TotalDeCompra<-TotalDeCompra+Total41
+				Escribir "Total = $ ", cantidad*1600;
 			FinSi
 			Si (OP=42) Entonces
 				Escribir "Indique la cantidad"
 				Leer cantidad
 				Escribir "Pedido : " , cantidad, " pizzas especiales";
-				Escribir "Total42 = $ ", cantidad*1900;
-				TotalDeCompra<-TotalDeCompra+Total42
+				Escribir "Total = $ ", cantidad*1900;
 			FinSi
 			Si (OP=43) Entonces
 				Escribir "Indique la cantidad"
 				Leer cantidad
 				Escribir "Pedido : " , cantidad, " pizzas criollas";
-				Escribir "Total43 = $ ", cantidad*4000;
-				TotalDeCompra<-TotalDeCompra+Total43
+				Escribir "Total = $ ", cantidad*4000;
 			FinSi
 			Si (OP=44)
 				Escribir "Presione enter para continuar"
